@@ -1,27 +1,242 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Prathamesh Gaikwad - Data Analyst</title>
+<title>Prathamesh Gaikwad | Data Analyst Portfolio</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f6f9;
+color:#333;
+}
+
+header{
+background:#111827;
+color:white;
+text-align:center;
+padding:50px;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+header p{
+font-size:18px;
+}
+
+section{
+width:80%;
+margin:auto;
+padding:40px 0;
+}
+
+.card{
+background:white;
+padding:25px;
+margin:20px 0;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+h2{
+color:#111827;
+}
+
+.skills span{
+background:#2563eb;
+color:white;
+padding:6px 12px;
+border-radius:20px;
+margin:5px;
+display:inline-block;
+font-size:14px;
+}
+
+img{
+width:100%;
+border-radius:10px;
+margin-top:15px;
+}
+
+a{
+color:#2563eb;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
 </head>
 
 <body>
 
+<header>
 <h1>Prathamesh Gaikwad</h1>
 <p>Aspiring Data Analyst | SQL | Power BI | Python</p>
+</header>
 
-<h2>Projects</h2>
 
-<h3>Sales Dashboard</h3>
-<p>Power BI dashboard analyzing sales performance.</p>
+<section>
 
-<h3>SQL Business Analysis</h3>
-<p>SQL queries to analyze customer orders.</p>
+<h2>Skills</h2>
 
-<h3>Python Data Analysis</h3>
-<p>Data cleaning and visualization using Pandas.</p>
+<div class="card skills">
 
-<h2>Contact</h2>
-<p>Email: gprathamesh549l@gmail.com</p>
+<span>SQL</span>
+<span>Power BI</span>
+<span>Excel</span>
+<span>Python</span>
+<span>Data Cleaning</span>
+<span>Data Visualization</span>
+
+</div>
+
+
+<h2>Financial Data Analysis Project</h2>
+
+<div class="card">
+
+<h3>Project Overview</h3>
+
+<p>
+This project analyzes a financial sales dataset to understand product performance, country profitability, and customer segment contribution.
+The analysis was performed using Power BI by cleaning, transforming, and visualizing the data to generate business insights.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Dataset Fields Used</h3>
+
+<ul>
+
+<li>Country</li>
+<li>Date</li>
+<li>Product</li>
+<li>Segment</li>
+<li>Gross Sales</li>
+<li>Profit</li>
+<li>Profit Margin</li>
+<li>Sale Price</li>
+<li>Discounts</li>
+<li>COGS</li>
+<li>Units Sold</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h3>Data Cleaning Process</h3>
+
+<ul>
+
+<li>Checked for missing or inconsistent values in sales and profit columns.</li>
+<li>Formatted the Date column to enable monthly trend analysis.</li>
+<li>Calculated Profit Margin using profit and sales values.</li>
+<li>Verified numerical columns such as Gross Sales, Units Sold, and Discounts.</li>
+<li>Standardized categorical fields like Product, Segment, and Country.</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h3>Data Visualization</h3>
+
+<p>The Power BI dashboard includes the following visualizations:</p>
+
+<ul>
+
+<li>Total Profit KPI</li>
+<li>Total Sales KPI</li>
+<li>Total Units Sold KPI</li>
+<li>Profit Margin KPI</li>
+<li>Bar Chart showing Total Profit per Country</li>
+<li>Bar Chart showing Total Sales per Product</li>
+<li>Donut Chart showing Units Sold per Segment</li>
+<li>Line Chart showing Monthly Sales Trend by Country</li>
+
+</ul>
+
+<img src="dashboard.png">
+
+</div>
+
+
+<div class="card">
+
+<h3>Business Insights</h3>
+
+<ul>
+
+<li>France generated the highest profit among all countries.</li>
+<li>Paseo is the highest selling product.</li>
+<li>The Government segment contributes the largest share of unit sales.</li>
+<li>Sales show strong growth during the final months of the year.</li>
+<li>Profit margin across the dataset is approximately 13.21%.</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h3>Tools Used</h3>
+
+<ul>
+
+<li>Power BI</li>
+<li>Excel</li>
+<li>Data Visualization</li>
+<li>Business Analytics</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h3>Project Links</h3>
+
+<p>
+<a href="https://github.com/ItsPrathameshGaikwad">GitHub Profile</a>
+</p>
+
+</div>
+
+
+</section>
+
+
+<footer>
+
+<p>Contact: gprathamesh549l@gmail.com</p>
+
+</footer>
+
 
 </body>
+
 </html>
